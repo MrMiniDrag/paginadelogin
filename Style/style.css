@@ -24,7 +24,11 @@ body {
 }
 
 .left-login > h1 {
-    color: #eff3ff;
+    color: #ffffff;
+}
+
+.loginimage {
+    width: 35vw
 }
 
 .right-login {
@@ -49,7 +53,7 @@ body {
 }
 
 .card-login > h1 {
-    color: #34f8ff;
+    color: #ffffff;
     font-weight: 8000;
     margin: 100;
 }
@@ -83,7 +87,7 @@ body {
 }
 
 .textfield > label {
-    color: #34f8ff;
+    color: #ffffff;
     margin-bottom: 10px; 
 }
 
