@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .main-login {
     width: 100vw;
     height: 100vh;
-    background: #00000f;
+    background: #09096b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +24,7 @@ body {
 }
 
 .left-login > h1 {
-    color: #ccd9ff;
+    color: #eff3ff;
 }
 
 .right-login {
@@ -34,9 +37,72 @@ body {
 
 .card-login {
     width: 60%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
+    background: #030338;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #010116a8;
+}
+
+.card-login > h1 {
+    color: #34f8ff;
+    font-weight: 8000;
+    margin: 100;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.textfield > label {
+    color: #34f8ff;
+    margin-right: 100px;
+    width: 20%;
+}
+
+.textfield > input {
+    width: 223px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #0a2e57;
+    color: #34f8ff;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #010116a8;
+    outline: none;  
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: #34f8ff;
+    margin-bottom: 10px; 
+}
+
+.textfield > input::placeholder {
+    color: #befdff54;
+}
+
+.btn-login {
+    width: 39%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #09096b;
+    background: #34f8ff;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 6px #4444e967;
 }
